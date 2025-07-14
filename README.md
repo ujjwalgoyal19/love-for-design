@@ -7,10 +7,11 @@ Welcome to **Love for Design**! This project is dedicated to exploring, sharing,
 The repository is organized as follows:
 
 ```
-src/       # Source code for tools, experiments, or utilities related to design
-docs/      # Documentation, guides, or articles about design techniques and processes
-assets/    # Images, icons, fonts, mockups, or design resources
-README.md  # You are here!
+src/        # Source code for tools, experiments, or utilities related to design
+docs/       # Documentation, guides, or articles about design techniques and processes
+assets/     # Images, icons, fonts, mockups, or design resources
+ai-service/ # Express server providing AI-driven endpoints
+README.md   # You are here!
 ```
 
 You are welcome to contribute to any part of the project or suggest new sections!
