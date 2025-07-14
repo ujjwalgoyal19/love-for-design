@@ -4,3 +4,8 @@ dist/
 .env
 # Logs
 npm-debug.log*
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+

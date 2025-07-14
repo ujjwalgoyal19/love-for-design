@@ -1,26 +1,27 @@
 # AI Service
 
-This folder contains a small Express server that exposes an endpoint for generating text using the OpenAI API.
+This folder contains a simple Python microservice built with Flask. It exposes an endpoint for generating text using the OpenAI API.
 
 ## Setup
 
-1. Install dependencies:
+1. Create and activate a virtual environment:
    ```bash
-   npm install
+   python -m venv .venv
+   source .venv/bin/activate
    ```
-2. Create an `.env` file based on `.env.example` and set your `OPENAI_API_KEY`.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Copy `.env.example` to `.env` and set your `OPENAI_API_KEY`.
 
 ## Usage
 
-Run in development mode with:
+Run the service locally with:
 
 ```bash
-npm run dev
+python app.py
 ```
 
-Build and start with:
+The server listens on the port specified in `.env` (default `3001`).
 
-```bash
-npm run build
-npm start
-```
