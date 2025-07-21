@@ -1,4 +1,4 @@
-# AI Service
+# AI Agent Service
 
 This folder contains a simple Python microservice built with Flask. It exposes an endpoint for generating text using the OpenAI API.
 
