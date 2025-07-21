@@ -1,0 +1,10 @@
+{
+  "name": "love-for-design",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace apps/frontend"
+  }
+}

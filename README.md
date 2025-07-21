@@ -7,9 +7,16 @@ Welcome to **Love for Design**! This project is dedicated to exploring, sharing,
 The repository is organized as follows:
 
 ```
-ai-service/ # Python microservice providing AI-driven endpoints
-frontend/   # Web frontend built with Next.js
-README.md   # You are here!
+apps/
+  frontend/  # Next.js web client
+  backend/   # Node.js API (coming soon)
+services/
+  ai-agent/  # Python AI microservice
+prisma/      # Database schema
+shared/      # Common types and utilities
+scripts/     # DevOps scripts
+docker/      # Docker configuration
+README.md    # You are here!
 ```
 
 You are welcome to contribute to any part of the project or suggest new sections!
