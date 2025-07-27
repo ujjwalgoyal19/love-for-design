@@ -1,0 +1,26 @@
+{
+  "agents": [
+    {
+      "agent_id": "test_agent_1",
+      "name": "Test Agent",
+      "description": "Test agent for validation",
+      "agent_type": "openai",
+      "capabilities": [
+        "question_generation",
+        "design_review"
+      ],
+      "config": {
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.7,
+        "max_tokens": 500,
+        "timeout": 30,
+        "retry_attempts": 3,
+        "custom_params": {}
+      },
+      "priority": 5,
+      "is_active": true,
+      "created_at": "2025-07-21T22:21:01.060893",
+      "updated_at": "2025-07-21T22:21:01.060893"
+    }
+  ]
+}

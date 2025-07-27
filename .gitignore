@@ -2,6 +2,7 @@
 node_modules/
 dist/
 .env
+.kiro/
 # Logs
 npm-debug.log*
 # Python
